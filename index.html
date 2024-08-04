@@ -1,0 +1,538 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href=".\css\bootsrap\bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid m-0 p-0">
+        <!-- Logo Navbar -->
+        <nav class="navbar navbar-white bg-white">
+          <div
+            class="container-fluid d-flex flex-column align-items-center flex-lg-row justify-content-lg-between px-4"
+          >
+            <img
+              src="images/dcsa.jpg"
+              class="rounded float-start"
+              height="80"
+              alt="Department Logo"
+            />
+            <div
+              class="m-3 mb-1 text-shadow d-flex flex-column align-items-md-center align-items-lg-start"
+            >
+              <h3 id="dept-name">
+                <!-- UGC-Centre of Excellence in Applications of Nanomaterials,
+                Nanoparticles & Nanocomposites -->
+                SC/ST CELL
+              </h3>
+              <h6 id="uni-name" class="">PANJAB UNIVERSITY</h6>
+            </div>
+            <img
+              src="images/pu.jpeg"
+              class="rounded float-end d-none d-lg-inline"
+              height="80"
+              alt="PU Logo"
+            />
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <nav
+      class="navbar navbar-dark navbar-expand-lg sticky-top base-color p-0 shadow"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav justify-content-evenly w-100">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white text-shadow"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+              >
+                <i class="fas fa-lightbulb pe-1"></i>About
+              </a>
+              <ul class="dropdown-menu text-black">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white text-shadow"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+              >
+                <i class="fas fa-book pe-1"></i>Academics
+              </a>
+              <ul class="dropdown-menu text-black">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white text-shadow"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+              >
+                <i class="fas fa-magnifying-glass pe-1"></i>Research
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white text-shadow"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+              >
+                <i class="fas fa-calendar pe-1"></i>Activity
+              </a>
+              <ul class="dropdown-menu text-black">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white text-shadow"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                data-bs-auto-close="outside"
+              >
+                <i class="fas fa-briefcase pe-1"></i>Career
+              </a>
+              <ul class="dropdown-menu text-black">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white text-shadow"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                aria-expanded="false"
+              >
+                <i class="fas fa-list pe-1"></i>Notices
+              </a>
+              <ul class="dropdown-menu text-black">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide carousel-fade shadow d-none d-lg-block d-xl-block"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner" style="height: 600px">
+        <div
+          class="carousel-item active"
+          data-bs-interval="2000"
+          style="height: 600px"
+        >
+          <img src="./images/s9.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div
+          class="carousel-item"
+          data-bs-interval="2000"
+          style="height: 600px"
+        >
+          <img src="./images/s8.jpeg " class="d-block w-100" alt="..." />
+        </div>
+        <div
+          class="carousel-item"
+          data-bs-interval="2000"
+          style="height: 600px"
+        >
+          <img src="./images/s7.webp" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+
+    <div class="d-lg-none d-sm-block d-md-block">
+      <img
+        src="./images/StuC_PU.jpg  "
+        class="img-fluid"
+        alt="Responsive image"
+      />
+    </div>
+
+    <div class="container-fluid">
+      <div class="row my-5 mx-3">
+        <div class="col-md-12 col-lg-8 mb-3" id="about-us">
+          <div class="card">
+            <div
+              class="card-header base-color text-white border-bottom border-info border-4 pb-0"
+            >
+            <h5> <i class="fas fa-lightbulb pe-2"></i>About Us</h5>
+              
+            </div>
+            <div
+              class="card-body bg-light overflow-hidden small"
+              style="height: 300px"
+            >
+              <p>
+                The Computer Culture at the Panjab University dates back to
+                1966. An independent Centre for Computer Science and
+                Applications (now a full fledged department) was set-up in 1983.
+                The department aims at ingraining the spirit of ingenuity,
+                innovativeness and technical competence in the students through
+                rigorous competition and regular guidance. The department also
+                caters to the need of users in the region and organizes
+                programmes for teaching and research communities.
+                <br />
+                <br />
+                The Master of Computer Applications (MCA) (3 years full time
+                course) was initiated in 1992-1993. Master of Computer
+                Applications (3 year full time course) in Self Finance mode
+                started in 2008 and Masters of Science (Honors School) under the
+                framework of Computer Science was introduced in year 2004.
+                Currently the department is running Master of Computer
+                Applications (MCA) (2 years full time course). Master of
+                Computer Applications (MCA) (2 years full time course) in Self
+                Financed mode and Master of Science (Computer Science) under the
+                framework of the Hon's School (02 years full time course).
+                Admissions to these course are held through an annual entrance
+                test conducted on All India basis by Panjab University. In
+                addition, Ph.D. Program has been started from year 2005.
+              </p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-12 col-lg-4 mb-3 d-none" 
+          id="notice-board"
+        >
+          <div class="card">
+            <div
+              class="card-header base-color text-white border-bottom border-info border-4 pb-0"
+            >
+            <h5><i class="fas fa-list pe-2"></i>Notices</h5>
+            </div>
+            <div class="card-body bg-light overflow-hidden small"
+            style="height: 300px">
+              <ul class="p-2 list-group-flush mb-4 ">
+                <li class="list-group-item mb-1">
+                  06/12/2023 : The online Viva–Voce Examination in respect of
+                  Ms. Pooja Jain on 08/12/2023
+                </li>
+                <li class="list-group-item mb-1">
+                  31/10/2023 : RUSA SPONSERED SKILL ENHANCEMENT COURSE ON DATA
+                  ANALYTICS AND MACHINE LEARNING.
+                </li>
+                <li class="list-group-item mb-1">
+                  25/08/2023 : Provisionally admitted and Waiting List under
+                  Sports Category 2023-2024.
+                </li>
+                <li class="list-group-item mb-1">
+                  23/08/2023 : Orientation-cum-Induction Program for students
+                  of MCA (Morning and Self Financed) Ist Year and M.Sc. Ist Year
+                </li>
+                <li class="list-group-item mb-1">
+                  22/08/2023 : MCA 1st Semester Sports Category Counselling
+                  2023-24
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-12 col-lg-4 mb-3 mb-sm-2 overflow-hidden"
+          style="height: 350px"
+          id="courses"
+        >
+          <div class="card">
+            <div
+              class="card-header base-color text-white border-bottom border-info border-4 pb-0"
+            >
+            <h5><i class="fas fa-book pe-2"></i>Courses</h5> 
+            </div>
+            <div class="card-body bg-light small">
+              <p>
+                The Computer Culture at the Panjab University dates back to
+                1966. An independent Centre for Computer Science and
+                Applications (now a full fledged department) was set-up in 1983.
+                The department aims at ingraining the spirit of ingenuity,
+                innovativeness and technical competence in the students through
+                rigorous competition and regular guidance. The department also
+                caters to the need of users in the region and organizes
+                programmes for teaching and research communities.
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-12 col-lg-4 mb-3 mb-sm-2 overflow-hidden d-none"
+          style="height: 350px"
+          id="faculty"
+        >
+          <div class="card">
+            <div
+              class="card-header text-white base-color border-bottom border-info border-4 pb-0"
+            >
+            <h5><i class="fa-solid fa-users pe-2"></i>Faculty</h5> 
+            </div>
+            <div class="card-body bg-light small ">
+            <div class="row">
+              <figure class="figure m-2 col">
+                <img
+                  src="./images/place.jpg"
+                  class="rounded-circle"
+                  height="80"
+                  alt="..."
+                />
+                <figcaption class="figure-caption">R.K. Singhla</figcaption>
+              </figure>
+              <figure class="figure m-2 col">
+                <img
+                  src="./images/place.jpg"
+                  class="rounded-circle"
+                  height="80"
+                  alt="..."
+                />
+                <figcaption class="figure-caption">R.K. Singhla</figcaption>
+              </figure>
+              <figure class="figure m-2 col">
+                <img
+                  src="./images/place.jpg"
+                  class="rounded-circle"
+                  height="80"
+                  alt="..."
+                />
+                <figcaption class="figure-caption">R.K. Singhla</figcaption>
+              </figure>
+              <figure class="figure m-2 col">
+                <img
+                  src="./images/place.jpg"
+                  class="rounded-circle"
+                  height="80"
+                  alt="..."
+                />
+                <figcaption class="figure-caption">R.K. Singhla</figcaption>
+              </figure>
+              <figure class="figure m-2 col">
+                <img
+                  src="./images/place.jpg"
+                  class="rounded-circle"
+                  height="80"
+                  alt="..."
+                />
+                <figcaption class="figure-caption">R.K. Singhla</figcaption>
+              </figure>
+              <figure class="figure m-2 col">
+                <img
+                  src="./images/place.jpg"
+                  class="rounded-circle"
+                  height="80"
+                  alt="..."
+                />
+                <figcaption class="figure-caption">R.K. Singhla</figcaption>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="col-md-12 col-lg-4 mb-3 mb-sm-2 overflow-hidden"
+          style="height: 350px"
+          id="contact">
+          <div class="card">
+            <div
+              class="card-header base-color text-white border-bottom border-info border-4 pb-0"
+            >
+            <h5><i class="fa-solid fa-address-book pe-2"></i>Contact Us</h5>
+            </div>
+            <div class="card-body bg-light small">
+              <p>
+                The Computer Culture at the Panjab University dates back to
+                1966. An independent Centre for Computer Science and
+                Applications (now a full fledged department) was set-up in 1983.
+                The department aims at ingraining the spirit of ingenuity,
+                innovativeness and technical competence in the students through
+                rigorous competition and regular guidance. The department also
+                caters to the need of users in the region and organizes
+                programmes for teaching and research communities.
+                <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+
+    <!-- FOOTER -->
+
+    <footer
+      class="container-fluid m-0 row row-cols-1 row-cols-md-2 row-cols-lg-4 p-5 pb-3 text-white "
+      id = "top-footer"
+    >
+      <div class="col mb-3 flex-column align-items-left ps-5">
+        <h5 class="text-info">Services</h5>
+        <ul class="nav flex-column small">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Anti-ragging</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Register Complaint</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Webcast/Videos</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">University Events</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Internal Complaint Commitee</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col mb-3 flex-column  align-items-left ps-5">
+        <h5 class="text-info">Resources</h5>
+        <ul class="nav flex-column small">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">IQAC/NAC</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">NIRF</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">PU Ethics Commitee</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Swachh Bharat Abhiyan</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Cluster: CRIKC</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col mb-3 flex-column align-items-left ps-5">
+        <h5 class="text-info">Support</h5>
+        <ul class="nav flex-column small">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Telephone Directory</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">University Forms</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Employement/Jobs</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Right to Information</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Alumni</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Tenders</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col mb-3 flex-column align-items-left ps-5">
+        <h5 class="text-info">Miscellaneous</h5>
+        <ul class="nav flex-column small">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">PUNET</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Mail@Campus</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Campus Portal</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">Photo Gallery</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-white">PU SiteMap</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="container-fluid d-flex flex-column  small p-1">
+
+        <!-- <p class="text-body-secondary border-bottom">Enquiry No(s): 1800-180-2065, +91 172 2534818, 2534866 (from 9:30 am to 1:00 pm & 2:30 pm to 4:30 pm on working days )</p> -->
+        
+        <div class="text-body-secondary align-self-center ">
+          &copy; 1997- 2023 - Panjab University, Chandigarh, India. Developed by: 
+        Computer Centre, Panjab University | Disclaimer</div>
+        
+    </div>
+
+    <!-- Scripts -->
+    <script src="./javascript/index.js"></script>
+    <script src="./javascript/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
