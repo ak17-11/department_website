@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(164, 164, 120); */
+}
+:root {
+  --base: #1d4289;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
+  
+}
+.base-color {
+  background-color: var(--base);
+}
+.text-shadow {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+#dept-name{
+    color: var(--base) !important;
+    /* font-size: 1.8vw;  */
+}
+
+/* #uni-name{
+  font-size: 1.4vw;
+} */
+
+#top-footer {
+  background-color: #323232;
+}
